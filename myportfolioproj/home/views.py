@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def janet(request):
+    return render(request, 'home/janet.html')
